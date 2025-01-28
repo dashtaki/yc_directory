@@ -6,7 +6,6 @@ interface Props {
 }
 
 export default function layout({children}: Props) {
-
   return (<main className="font-work-sans">
     <Navbar />
 
