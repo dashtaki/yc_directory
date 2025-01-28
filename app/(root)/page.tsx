@@ -6,7 +6,7 @@ interface Props {
 }
 
 export interface IStartupCard {
-  _createdAt: string
+  _createdAt: Date
   views: number
   author: { _id: number, name: string }
   _id: number
